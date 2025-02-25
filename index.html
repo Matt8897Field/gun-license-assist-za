@@ -4,19 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gun License Assist ZA</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        h1 { color: #333; }
-        p { font-size: 18px; }
-        .contact { margin-top: 20px; font-weight: bold; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Gun License Assist ZA</h1>
-    <p>We specialize in writing firearm license motivations and assisting with applications in South Africa.</p>
-    <p>Let us help you secure your firearm license with a strong, legally sound motivation.</p>
-    <div class="contact">
-        <p>📧 Contact us: <a href="mailto:info@gunlicenseassist.co.za">info@gunlicenseassist.co.za</a></p>
-    </div>
+    <header>
+        <h1>Gun License Assist ZA</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#assist">Assist Me</a></li>
+                <li><a href="Firearms_Control_Act ZA.pdf" download>Firearms Control Act</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Gun License Assist ZA</h2>
+            <p>
+                You bought that new firearm and want to make sure the licence arrives within 90 days? 
+                You want to buy a pistol to protect yourself and loved ones? You need to renew that 
+                shotgun you don’t use as much as you should? You want to inherit your beloved grandfather’s .22? 
+                Don’t let SAPS’ confusing system stop you, don’t get sold short by the red tape.
+            </p>
+            <p>
+                Need help with new licences, renewals, or competencies, not sure how to motivate? 
+                Don’t waste time and money. Leave it to the experts.
+            </p>
+        </section>
+
+        <section id="assist">
+            <h2>Assist Me</h2>
+            <form action="mailto:support@gunlicenseassistza.com" method="post" enctype="text/plain">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="Motivation">Motivation</option>
+                    <option value="Legal">Legal</option>
+                    <option value="Document Requirements">Document Requirements</option>
+                </select><br><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <article>
+                <h3>Article Title 1</h3>
+                <p>Short description or snippet of the news article goes here.</p>
+            </article>
+            <article>
+                <h3>Article Title 2</h3>
+                <p>Another short description or snippet.</p>
+            </article>
+            <!-- Add more articles as needed -->
+        </section>
+    </main>
+
+    <aside>
+        <h3>Follow Us on X</h3>
+        <ul>
+            <li><a href="https://x.com/GunOwnersSA" target="_blank">@GunOwnersSA</a></li>
+            <li><a href="https://x.com/SAGA_GunLobby" target="_blank">@SAGA_GunLobby</a></li>
+            <li><a href="https://x.com/gunafrica" target="_blank">@gunafrica</a></li>
+            <li><a href="https://x.com/WeaponsVault" target="_blank">@WeaponsVault</a></li>
+            <li><a href="https://x.com/daily_gun" target="_blank">@daily_gun</a></li>
+        </ul>
+        <p><a href="https://wa.me/1234567890" target="_blank">WhatsApp Me</a></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Gun License Assist ZA. All rights reserved.</p>
+    </footer>
 </body>
 </html>
